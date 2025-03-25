@@ -7,3 +7,29 @@ opacity: 0;
     
     }
 
+.desk__link {
+    display: block;
+    opacity: 0;
+    color: @textcolor;
+    font-family: @textfamily;
+    margin: 0 auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 150px; 
+    text-align: center;
+    border: 1px solid @textcolor;
+    border-radius: 5px;
+    text-transform:uppercase;
+    font-size: 15px;
+    animation: fade 5s linear forwards;
+    animation-delay: 47s;
+}
+
+.desk__link:hover { 
+    color: black;
+    text-decoration: none; 
+    background-color: @textcolor;
+    border: 1px solid @textcolor;
+    font-weight: bold;
+}
+

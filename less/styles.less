@@ -1,16 +1,21 @@
+@textcolor:rgb(180,180,180);
+@textfamily:"Nunito Sans", sans-serif;
+@backcolor:rgb(34,34,34);
+@backcolorheadmassage:rgb(71,71,71);
+
 p {
-    font-family: "Nunito Sans", sans-serif;
-    color: rgb(180,180,180) ;
+    font-family: @textfamily;
+    color: @textcolor ;
 }
 html {
-    background-color: rgb(34,34,34);
+    background-color: @backcolor;
 }
 body {
 
-    background-color: rgb(34,34,34);
+    background-color: @backcolor;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: @textfamily;
 }
 
 @import "block/head.less";
