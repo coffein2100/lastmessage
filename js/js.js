@@ -16,7 +16,7 @@ var i = 0;
         //console.log(document.getElementById("text").innerHTML);
     }
 
-    setTimeout(typeWriter,15000);
+    setTimeout(typeWriter,7000);
 
     var i1 = 0;
 // var A = 0;
@@ -36,4 +36,4 @@ var i = 0;
         //console.log(document.getElementById("text").innerHTML);
     }
 
-    setTimeout(typeWriter1,30000);
+    setTimeout(typeWriter1,23000);
